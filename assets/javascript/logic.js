@@ -68,7 +68,7 @@ $(document).ready(function () {
         var catchTrain = moment(nextTrain).format("HH:mm");
 
         // Display On Page
-        $("#all-display").append(
+        $("table tbody").append(
             ' <tr><td>' + newTrain +
             ' </td><td>' + newLocation +
             ' </td><td>' + newFreq +

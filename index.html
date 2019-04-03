@@ -4,17 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <title>TrainTime | Randy</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
-
-    <script src="https://momentsjs.com/downloads/moment.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script> -->
-
-    <script src="assets/css/style.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="assets/javascript/logic.js"></script>
-    <script src="assets/css/reset.css"></script>
+
+
 </head>
 
 <body>
@@ -27,7 +30,7 @@
             <h5 class="text-center">Choo Choo. Chee Chee.</h5>
         </div>
 
-        <table>
+        <table class="table">
             <thead>
                 <tr>
                     <th>Train Name</th>
@@ -37,7 +40,7 @@
                     <th>Minutes Away</th>
                 </tr>
             </thead>
-            <tbody id="all-display">
+            <tbody>
             </tbody>
 
         </table>
@@ -82,7 +85,6 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
 </body>
 
